@@ -11,7 +11,7 @@ const MovieRow = ({title, url}) => {
     axios.get(url)
     .then((response) => setMovies(response.data.results));
   },[url]);
-
+console.log('hi') ;
   const slide = (offset) => {
     const slider = document.getElementById('slider' + rowId);
     slider.scrollLeft = slider.scrollLeft + offset;
