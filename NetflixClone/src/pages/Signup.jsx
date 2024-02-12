@@ -52,7 +52,7 @@ const Signup = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 />
 
-                <button type="submit" className='bg-red-600 py-3 my-6 rounded font-nsans-bold'>
+                <button type="submit" className='bg-red-800 py-3 my-6 rounded font-nsans-bold'>
                   Sign Up
                 </button>
 
